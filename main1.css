@@ -1,0 +1,190 @@
+#section2{
+    /* border: 2px solid blue; */
+    /* width:100%; */
+    height: 50px;
+    position: relative;
+    top:80px;
+    text-align: center;
+    font-size: 28px;
+
+}
+#section2 ol{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    padding-top: 100px;
+    /* justify-content: space-between; */
+}
+#section2 ol li{
+    /* border: 2px solid; */
+    height: 600px;
+    width: 30%;
+}
+
+#section2 ol li h2{
+    /* border: 2px solid; */
+    font-size: 30px;
+    margin-top:50px;
+}
+#section2 ol li p{
+    /* border:3px solid blue; */
+    margin-top: 30px;
+    font-size: 25px;
+}
+#content{
+    height: 65vh;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    
+   
+}
+#content h2{
+    /* border: 2px solid black; */
+    padding-top: 180px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+#content1 {
+    /* border: 2px solid red; */
+    height: 100vh;
+    padding-top: 100px;
+}
+#bar{
+    /* border: 5px solid yellow; */
+    width: 100%;
+}
+
+#bar svg{
+    /* border: 2px solid; */
+    height: 2.5em;
+    vertical-align: middle;
+    transform: rotate(180deg);
+    /* width: 1px; */
+    height: 24px;
+}
+.summary{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 26px 28px;
+    margin-top: 2px;
+    position: relative;
+    list-style: none;
+    outline: none;
+
+}
+.details{
+    background-color: var(--background-elevated-base, #fff);
+    color: var(--text-base, #000);
+}
+.head{
+    display: flex;
+    padding-left: 150px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.para{
+    font-size: 20px;
+    margin: 5px;
+}
+#section3{
+    /* border: 5px solid; */
+    height: 500px;
+    width: 100%;
+    background: url("./images/lets-play.svg"),linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);;
+    background-repeat: no-repeat;
+}
+#section3 h2{
+    font-size: 80px;
+    padding-top: 150px;
+    color: #fff;
+    
+}
+#section3 button{
+    /* border: 2px solid red; */
+    width:250px ;
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+#section3 button:hover{
+    color:#fff;
+}
+
+footer{
+    width: 100%;
+    height: 80vh;
+    background: #000;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+#mainfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+}
+#footer1{
+    display: flex;
+    flex-direction: row;
+}
+#footer1 div{
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+#footer1 ul li:first-of-type{
+    color:#ccc;
+    cursor: unset;
+    font-size: 10px;
+    font-weight: bolder;
+}
+#footer1 ul li{
+    cursor: pointer;
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+#footer1 ul li:hover{
+    color:yellowgreen;
+}
+#socialfoot{
+    margin-top: 50px;
+
+}
+#socialfoot span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#footlogo{
+    display: flex;
+    
+}
+#tailfoot{
+    display: flex;
+    justify-content: space-around;
+}
+#tailfoot ul li{
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    color: gray;
+}
+#tailfoot ul li:hover{
+    color: yellowgreen;
+}
+#footloc{
+    font-size: 10px;
+    color: gray;
+}
+
+
+
